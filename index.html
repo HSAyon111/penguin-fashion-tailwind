@@ -15,7 +15,7 @@
         <section class="md:flex items-center justify-around py-20 md:pl-12 px-3">
             <div class="space-y-6">
                 <h1 class="text-7xl font-bold uppercase">
-                    <span class="text-yellow-300">Be The Penguins</span>
+                    <span id="banner-heading" class="text-yellow-300">Be The Penguins</span>
                     <br>
                     <span class="text-gray-700">of Winter</span>
                 </h1>
@@ -24,7 +24,8 @@
                     consequatur tenetur,
                     tempore provident?</p>
                 <button
-                    class="text-white font-medium uppercase px-8 py-4 rounded-xl bg-gradient-to-b from-green-400 to-green-600">
+                    class="text-white font-medium uppercase px-8 py-4 rounded-xl bg-gradient-to-b from-green-400 to-green-600"
+                    id="buy-now-button">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
                         fill="currentColor">
                         <path
@@ -34,7 +35,7 @@
                 </button>
             </div>
             <div>
-                <img src="images/model.png" alt="">
+                <img id="banner-image" src="images/model.png" alt="">
             </div>
         </section>
     </header>
@@ -135,7 +136,9 @@
                         <img class="h-64 mx-auto" src="images/jacket-5.png" alt="">
                     </div>
                     <h4 class="text-3xl font-bold text-gray-700">Man Leather Jackets</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, nesciunt!</p>
+                    <p id="jacket-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+                        nesciunt!
+                    </p>
                     <div class="md:flex justify-between">
                         <h2 class="text-4xl font-black text-yellow-400">$234</h2>
                         <button
@@ -217,6 +220,7 @@
     <footer>
 
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
